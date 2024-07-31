@@ -10,7 +10,7 @@ document.getElementById('save').addEventListener('click', () => {
     const dataURL = signaturePad.toDataURL('image/png');
     const link = document.createElement('a');
     link.href = dataURL;
-    link.download = 'assinatura.png';
+    link.download = 'Assinatura.png';
     link.click();
   }
 });
